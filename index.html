@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Toastica</title>
+    <meta content="Zaikajaroori - Taste That Lives On" name="description" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&amp;display=swap" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- Logo & Navigation -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img alt="Zaikajaroori Logo" src="./assets/img/logo.png" class="img-fluid" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto main-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about-us/about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./products/products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- Smooth Autoplay Carousel -->
+    <section class="carousel" aria-label="Zayana hero carousel">
+        <div class="track" id="zayanaTrack">
+            <div class="slide">
+                <img src="./products/images/slide-1.png" alt="slide 1" />
+            </div>
+            <div class="slide">
+                <img src="./products/images/slide-2.png" alt="slide 2" />
+            </div>
+            <div class="slide">
+                <img src="./products/images/slide-3.png" alt="slide 3" />
+            </div>
+        </div>
+
+        <div class="carousel-thumbs" id="zayanaThumbs" aria-hidden="true">
+            <button class="thumb" data-index="0"><img src="./products/images/slide-1.png" alt="t1"></button>
+            <button class="thumb" data-index="1"><img src="./products/images/slide-2.png" alt="t2"></button>
+            <button class="thumb" data-index="2"><img src="./products/images/slide-3.png" alt="t3"></button>
+        </div>
+    </section>
+
+    <!-- Features products Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/brown-bread.png" alt="Brown Bread" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/burger-buns.png" alt="Burger Buns" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/hot-dog-rolls.png" alt="Butter Rusk" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/milk-bread.png" alt="Milk Bread" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/milk-cake.png" alt="Brown Bread" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/premium-white-bread.png" alt="Burger Buns" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/white-bread.png" alt="Milk Bread" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3 text-start mb-4">
+                    <div class="feature-item">
+                        <img src="./products/images/whole-wheat-bread.png" alt="Burger Buns" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Holder Section -->
+    <section class="text-holder py-2 bg-red">
+        <div class="container text-center">
+            <h2><a href="./products/products.html">Crunch In joy</a></h2>
+        </div>
+    </section>
+
+    <!-- Product Boxes Section -->
+    <section class="product-boxes py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="product-box">
+                        <a href="./products/tea-toast.html" aria-label="View Tea Toast details">
+                            <img src="./products/images/tea-toast.png" alt="Tea Toast" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="product-box">
+                        <a href="./products/classic-rusk.html" aria-label="View Classic Rusk details">
+                            <img src="./products/images/classic-rusk.png" alt="Classic Rusk" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="product-box">
+                        <a href="./products/elaichi-rusk.html" aria-label="View Elaichi Rusk details">
+                            <img src="./products/images/elaichi-rusk.png" alt="Elaichi Rusk" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="product-box">
+                        <a href="./products/toast-biscuits.html" aria-label="View Toast Biscuits details">
+                            <img src="./products/images/toast-biscuits.png" alt="Toast Biscuits" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Holder Section -->
+    <section class="text-holder py-2 bg-red">
+        <div class="container text-center">
+            <h2><a href="./products/products.html">Asli Crunch</a></h2>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="./about-us/img/about-us.png" alt="About Toastica" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-3">About Toastica</h2>
+                    <p>Toastica is a brand that embodies the rich culinary heritage of traditional spices and flavors.
+                        Our mission is to bring authentic taste experiences to your kitchen, using high-quality
+                        ingredients sourced from trusted farmers and producers. With a commitment to excellence and a
+                        passion for flavor, Toastica offers a range of products that celebrate the art of cooking and
+                        the joy of sharing meals with loved ones.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-grid justify-content-center ">
+        <div id="header" class="pt-3">
+            <h1>Our Products</h1>
+            <p>The Traditional Fench Taste</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/brown-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/brown-bread.html">Brown Bread</a></h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/burger-buns.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/burger-buns.html">Burger Buns</a></h3>
+                </div>
+                <div class="card-price">300g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/butter-rusk.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">
+                        <a href="./products/butter-rusk.html">Butter Rusk</a>
+                    </h3>
+                </div>
+                <div class="card-price">200g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/classic-rusk.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/classic-rusk.html">Classic Rusk</a>
+                    </h3>
+                </div>
+                <div class="card-price">200g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/elaichi-rusk.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/elaichi-rusk.html">Elaichi Rusk</a>
+                    </h3>
+                </div>
+                <div class="card-price">200g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/hot-dog-rolls.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/hot-dog-rolls.html">Hot Dog Rolls</a>
+                    </h3>
+                </div>
+                <div class="card-price">300g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/milk-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/milk-bread.html">Milk Bread</a>
+                    </h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/milk-cake.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/milk-cake.html">Milk Cake</a>
+                    </h3>
+                </div>
+                <div class="card-price">250g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/pav-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/pav-bread.html">Pav Bread</a>
+                    </h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/premium-white-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/premium-white-bread.html">Premium White Bread</a>
+                    </h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/sandwich-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title">                    <a href="./products/sandwich-bread.html">Sandwich Bread</a>
+                    </h3>
+                </div>
+                <div class="card-price">250g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/tea-toast.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/tea-toast.html">Tea Toast</a></h3>
+                </div>
+                <div class="card-price">300g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/toast-biscuits.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/toast-biscuits.html">Toast Biscuits</a></h3>
+                </div>
+                <div class="card-price">300g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/white-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/white-bread.html">White Bread</a></h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./products/images/whole-wheat-bread.png">
+                </div>
+                <div class="card-text">
+                    <p class="card-meal-type">Bakery</p>
+                    <h3 class="card-title"><a href="./products/whole-wheat-bread.html">Whole Wheat Bread</a></h3>
+                </div>
+                <div class="card-price">400g</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START OF FOOTER -->
+    <footer class="bg-light pt-md-4 pb-3 mt-0 footer">
+        <div class="container">
+            <div class="row mb-4">
+                <!-- Quick Links -->
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about-us/about-us.html">About Us</a></li>
+                        <li><a href="./products/products.html">Products</a></li>
+                        <li><a href="./contact/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Products -->
+                <div class="col-md-6 mb-3">
+                    <h5 class="mb-3">Products</h5>
+                    <ul class="list-unstyled mb-0 row g-2 footer-products-list">
+                        <li class="col-6"><a href="./products/brown-bread.html">Brown Bread</a></li>
+                        <li class="col-6"><a href="./products/burger-buns.html">Burger Buns</a></li>
+                        <li class="col-6"><a href="./products/butter-rusk.html">Butter Rusk</a></li>
+                        <li class="col-6"><a href="./products/classic-rusk.html">Classic Rusk</a></li>
+                        <li class="col-6"><a href="./products/elaichi-rusk.html">Elaichi Rusk</a></li>
+                        <li class="col-6"><a href="./products/hot-dog-rolls.html">Hot Dog Rolls</a></li>
+                        <li class="col-6"><a href="./products/milk-bread.html">Milk Bread</a></li>
+                        <li class="col-6"><a href="./products/milk-cake.html">Milk Cake</a></li>
+                        <li class="col-6"><a href="./products/pav-bread.html">Pav Bread</a></li>
+                        <li class="col-6"><a href="./products/premium-white-bread.html">Premium White Bread</a></li>
+                        <li class="col-6"><a href="./products/sandwich-bread.html">Sandwich Bread</a></li>
+                        <li class="col-6"><a href="./products/tea-toast.html">Tea Toast</a></li>
+                        <li class="col-6"><a href="./products/toast-biscuits.html">Toast Biscuits</a></li>
+                        <li class="col-6"><a href="./products/white-bread.html">White Bread</a></li>
+                        <li class="col-6"><a href="./products/whole-wheat-bread.html">Whole Wheat Bread</a></li>
+                    </ul>
+                </div>
+                <!-- Social Links -->
+                <div class="col-md-3 mb-3">
+                    <h5 class="mb-3">Connect with us</h5>
+                    <p>Follow the Taste</p>
+                    <div class="d-flex gap-3 mb-2">
+                        <a aria-label="Instagram" href="https://www.instagram.com/Zaikajaroori" target="_blank">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a aria-label="Facebook" href="https://www.facebook.com/Zaikajaroori" target="_blank">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a aria-label="LinkedIn" href="https://www.linkedin.com/company/Zaikajaroori" target="_blank">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a aria-label="YouTube" href="https://www.youtube.com/@Zaikajaroori" target="_blank">
+                            <i class="fab fa-youtube fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center border-top pt-3">
+                <div class="col-md-6">
+                    © 2025 Toastica. All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a class="d-inline-block" href="./index.html">
+                        <img alt="Zaikajaroori Logo Footer" src="./assets/img/logo.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
